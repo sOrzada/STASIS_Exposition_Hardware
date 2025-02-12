@@ -1,0 +1,210 @@
+(footprint "SM-42_43X_331"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "COPAL ELECTRONICS SM-42/43 SURFACE MOUNT TRIMMERS Top adjustmet\n\nSource: smt-pots.pdf")
+	(property "Reference" "REF**"
+		(at -2.4 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fb9ab65c-8156-4b96-b527-3ab2c3d79d38")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SM-42_43X_331"
+		(at -2.4 -3.675 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c15c72db-7eee-4239-ae56-9b9fc3c24630")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c52c82ae-6161-4861-a4da-41769c9cba88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bb70beb-534e-4fc2-98d2-875bf82574d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03980245-7b27-47b5-914c-2b631021c4a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.3 -1.65)
+		(end -2.3 1.625)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bab8916c-00eb-4dae-8cee-20552e4f55c8")
+	)
+	(fp_line
+		(start -1.2 -1.65)
+		(end -2.3 -1.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0304028a-54dc-40e2-ac3c-a762170e1f40")
+	)
+	(fp_line
+		(start 1.525 -1.175)
+		(end 0.875 -0.525)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2d7fe67-4483-41ca-81f6-b2eba4322cf5")
+	)
+	(fp_line
+		(start 2.3 -1.65)
+		(end 1.2 -1.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f41c4d99-0cd4-4878-80c4-bb7562cf29f5")
+	)
+	(fp_line
+		(start 2.3 1.625)
+		(end 2.3 -1.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7cf90c4-9334-4d72-bfd5-49254e156cca")
+	)
+	(fp_circle
+		(center 1.2 -0.85)
+		(end 1.7505 -0.85)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c9d1afef-ccaf-473b-9043-dc5fb7f64a79")
+	)
+	(fp_line
+		(start -2.3 1.625)
+		(end 2.3 1.625)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30fdfe67-b343-4c01-9452-f93ccb8f5f07")
+	)
+	(fp_line
+		(start 2.3 -1.65)
+		(end -2.3 -1.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5cfd7784-4006-435a-b5d5-af1454054cc1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.675 2.85) (xy -0.875 2.85) (xy -0.875 1.65) (xy -1.675 1.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "bf44d79c-4068-449b-986b-d874e7bc7488")
+	)
+	(fp_poly
+		(pts
+			(xy -0.65 -1.65) (xy 0.65 -1.65) (xy 0.65 -2.85) (xy -0.65 -2.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "26f2e99a-1599-40f4-9d54-507531ce294e")
+	)
+	(fp_poly
+		(pts
+			(xy 0.875 2.85) (xy 1.675 2.85) (xy 1.675 1.65) (xy 0.875 1.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "bc8d758b-22a1-4e6f-8486-2300758a89f7")
+	)
+	(pad "1" smd rect
+		(at -1.27 2.55)
+		(size 1.3 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "2fb05cbe-8c15-4f5d-bc35-2866271184e5")
+	)
+	(pad "2" smd rect
+		(at 0 -2.55)
+		(size 2 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d95c5b81-ab65-4b96-9e22-3fdd80a093ef")
+	)
+	(pad "3" smd rect
+		(at 1.27 2.55)
+		(size 1.3 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "122036c6-da0d-4533-8015-3b4878aa1782")
+	)
+)

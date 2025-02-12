@@ -1,0 +1,4407 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b506548e-dc92-4584-81c4-43eced2dd353")
+	(paper "User" 363.017 210.007)
+	(lib_symbols
+		(symbol "Timing_Control_V1p1-eagle-import:C-EUC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Timing_Control_V1p1:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0603_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Timing_Control_V1p1-eagle-import:C-EUC1206"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Timing_Control_V1p1:C1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC1206_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Timing_Control_V1p1-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.905 -3.175 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Timing_Control_V1p1-eagle-import:LT1117"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 10.16 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Timing_Control_V1p1:SOT223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LT1117_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "GND"
+					(at -2.54 -5.08 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify right top)
+					)
+				)
+				(text "In"
+					(at -10.16 5.08 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Out"
+					(at 7.62 5.08 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Timing_Control_V1p1-eagle-import:VCC-CIRCLE"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL VCC Circle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC-CIRCLE_1_0"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 254 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02743d9a-8dd2-4c25-b8c5-5898651f32c1")
+	)
+	(junction
+		(at 264.16 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "028d78de-e57c-47c0-b4b6-949a61c0aae2")
+	)
+	(junction
+		(at 223.52 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02e9f51c-9bd2-4696-abea-5e5fe42347b0")
+	)
+	(junction
+		(at 203.2 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05602f11-b51f-42b1-bb52-28794d5f7309")
+	)
+	(junction
+		(at 304.8 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b0fd0af-e357-4452-af06-9abb1c281308")
+	)
+	(junction
+		(at 314.96 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa5db4b-2d11-4a62-8315-62b79512791f")
+	)
+	(junction
+		(at 203.2 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15181a73-fba6-4ed7-9f42-181b39c89588")
+	)
+	(junction
+		(at 294.64 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1849ebac-9930-4928-822a-d7807d3ed340")
+	)
+	(junction
+		(at 193.04 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18a08e4e-4f22-4f93-bd96-08c5cb87c31f")
+	)
+	(junction
+		(at 233.68 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1953ba76-6958-4d37-8c10-9e4b324606b7")
+	)
+	(junction
+		(at 162.56 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ca57c4b-f3b3-4382-b09b-35f97084f07f")
+	)
+	(junction
+		(at 152.4 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2218b3e9-9e3e-499e-93d8-a08a8ac5f898")
+	)
+	(junction
+		(at 111.76 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "235184b2-2b5f-403a-96b9-b34956c5be8c")
+	)
+	(junction
+		(at 213.36 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26c3bd7b-95bc-4bd3-acb8-296df2fcff08")
+	)
+	(junction
+		(at 284.48 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dba74c4-aa6a-4667-ad67-b39da520da59")
+	)
+	(junction
+		(at 101.6 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dec3cca-7fcb-4684-86b4-f7de70dfd020")
+	)
+	(junction
+		(at 284.48 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e44deb1-5d73-40ba-9a04-4f0948bd1c60")
+	)
+	(junction
+		(at 213.36 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33e7b045-4ad8-4630-86f1-43ebb93bb9ae")
+	)
+	(junction
+		(at 86.36 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cab993f-cf31-4152-8193-241fd2898733")
+	)
+	(junction
+		(at 314.96 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57bc6f28-3dba-4ad5-a4b4-812f29f4f554")
+	)
+	(junction
+		(at 294.64 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e4b90af-b3bb-4657-a515-ddea89bca272")
+	)
+	(junction
+		(at 121.92 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65b2adf2-42f7-428f-8deb-c5218aeb15a6")
+	)
+	(junction
+		(at 152.4 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "669d090d-3ae1-49f2-b054-5a86cccdb33c")
+	)
+	(junction
+		(at 121.92 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67aef8b9-d74c-41a2-87f5-63b97699815e")
+	)
+	(junction
+		(at 274.32 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d2d78d1-76cc-49ed-a93b-5037362fe7f3")
+	)
+	(junction
+		(at 223.52 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "713e3134-2ea2-4b90-828a-2534e99744c6")
+	)
+	(junction
+		(at 162.56 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71d719f8-3c90-415f-85eb-b5f5991769eb")
+	)
+	(junction
+		(at 91.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d3bbc73-1f78-489c-823b-2e26b76e18cf")
+	)
+	(junction
+		(at 132.08 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d5e89f1-3d43-4232-be3f-3f8298f79e0f")
+	)
+	(junction
+		(at 182.88 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e5e9416-842f-496d-850d-47ff597bdba1")
+	)
+	(junction
+		(at 304.8 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e7ac226-5f76-4434-a0d1-14db7084d7ce")
+	)
+	(junction
+		(at 325.12 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80145874-c539-4a38-af61-f66606213283")
+	)
+	(junction
+		(at 132.08 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83a1053c-e58b-4711-8b6d-05490d97b8fb")
+	)
+	(junction
+		(at 193.04 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8696d875-81cd-4cb1-826e-dd655430e9f9")
+	)
+	(junction
+		(at 243.84 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f417a8-42b7-4abd-9405-08cd11b337e0")
+	)
+	(junction
+		(at 172.72 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ac0a4d-e6be-4f27-b63d-3e8fa4a3a4c5")
+	)
+	(junction
+		(at 274.32 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9abc7cd8-742a-415c-9bb9-ad58016ceb1d")
+	)
+	(junction
+		(at 254 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa8fb1f8-2c2e-44fc-8b0d-811256a0d134")
+	)
+	(junction
+		(at 264.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb56fe04-d1ff-4a8f-be16-09a7cf1bae82")
+	)
+	(junction
+		(at 111.76 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbfdb423-ba9a-436b-a88a-d08b0f503520")
+	)
+	(junction
+		(at 142.24 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e05b4bc2-d968-48dc-af14-6506b22cf04d")
+	)
+	(junction
+		(at 66.04 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c5b795-6e5f-43bb-b410-aa3a484c7a90")
+	)
+	(junction
+		(at 182.88 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e617d3a0-ed83-4931-9943-6dd96dac8fac")
+	)
+	(junction
+		(at 172.72 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7b1acd6-9472-4717-95c3-c542776ae4d1")
+	)
+	(junction
+		(at 233.68 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec212eed-f563-4ba5-a15d-6d56b6cc272a")
+	)
+	(junction
+		(at 325.12 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edb5850d-4327-4c79-a461-eedc4a1eb058")
+	)
+	(junction
+		(at 243.84 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0482d2a-9bbf-4c19-a4f7-84cc886449d2")
+	)
+	(junction
+		(at 25.4 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2c28520-3005-4bbb-afcb-e9286a44fe60")
+	)
+	(junction
+		(at 142.24 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7112042-973b-45cb-a22f-bf94bc0d2d15")
+	)
+	(junction
+		(at 101.6 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f72541d5-e628-44f3-b085-8045279a995d")
+	)
+	(wire
+		(pts
+			(xy 335.28 111.76) (xy 325.12 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "006f27e4-2814-4790-b476-59cd33e31f88")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "05cd389f-b85b-400b-8370-d4115d44fbe7")
+	)
+	(wire
+		(pts
+			(xy 43.18 109.22) (xy 43.18 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ca36694-ed5b-4359-9021-bd9d77553946")
+	)
+	(wire
+		(pts
+			(xy 294.64 111.76) (xy 304.8 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d9a54d0-82b8-4ca9-80a8-17de1fbf687b")
+	)
+	(wire
+		(pts
+			(xy 203.2 111.76) (xy 213.36 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1071c0da-7934-4c70-9cde-bd7fe31e9a49")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1232a77a-d149-45b8-96a4-396b7c3dc002")
+	)
+	(wire
+		(pts
+			(xy 264.16 111.76) (xy 274.32 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "12edbc58-b0e2-4924-a54b-d090ea884341")
+	)
+	(wire
+		(pts
+			(xy 294.64 99.06) (xy 284.48 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "13e28495-d852-4fb2-9bd0-4aebcd944f46")
+	)
+	(wire
+		(pts
+			(xy 193.04 111.76) (xy 203.2 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "15bcccf6-1255-4a1e-9836-3aa2413c7bdd")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 182.88 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "15d0f210-8f28-46a9-9f3b-3c2a019f54e9")
+	)
+	(wire
+		(pts
+			(xy 243.84 101.6) (xy 243.84 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "18f7565b-f40d-4d06-afc1-1faf428e2dfd")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 182.88 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d56cf71-b7f7-4c8a-b3cd-e61ad3df47c8")
+	)
+	(wire
+		(pts
+			(xy 264.16 101.6) (xy 264.16 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1faa404f-ddf9-4359-892e-98b82dd50afd")
+	)
+	(wire
+		(pts
+			(xy 25.4 99.06) (xy 17.78 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2456882e-bf53-48f3-ab06-d01da927bce8")
+	)
+	(wire
+		(pts
+			(xy 101.6 101.6) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27000d3c-9731-4ab5-ad0e-e7d69a4af6b6")
+	)
+	(wire
+		(pts
+			(xy 254 109.22) (xy 254 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2862fd62-2194-43c7-b5b2-fe691f749df1")
+	)
+	(wire
+		(pts
+			(xy 213.36 101.6) (xy 213.36 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35449be9-aa18-4880-ae20-0f77dc0b05e4")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35d5f078-5758-4f88-bdf5-c593fcbf3d60")
+	)
+	(wire
+		(pts
+			(xy 91.44 111.76) (xy 101.6 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3a6e8815-de1b-4ff1-95c2-b28048d6456f")
+	)
+	(wire
+		(pts
+			(xy 223.52 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3b5ba5f8-0b2c-4323-89cf-53d5d1823cee")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3c95a41e-5dc7-4d3e-ad3b-1c3d5d20b131")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "436393c2-59da-4fdb-b750-47d6eff8e730")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "46a65837-6cf3-496b-92d1-3f7fbd8e5251")
+	)
+	(wire
+		(pts
+			(xy 314.96 111.76) (xy 325.12 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47ffe222-5eab-42bd-a77f-78423a81e39d")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "48a92e71-9cda-4eb1-9b63-f006fbf2bd3f")
+	)
+	(wire
+		(pts
+			(xy 304.8 101.6) (xy 304.8 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4d4376a3-2a88-4b4e-8126-0a6724bce220")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4eaa169c-c6ad-4b07-a047-8c0eb2db5e6e")
+	)
+	(wire
+		(pts
+			(xy 91.44 99.06) (xy 91.44 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5013707c-f786-4405-9d83-93ccd235a0e9")
+	)
+	(wire
+		(pts
+			(xy 132.08 109.22) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "550bf6ee-e3d9-42ce-bb22-745411da7e61")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5835b51f-71e6-43ab-9cc8-941727750bc2")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 132.08 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a079107-d83b-4024-8a6d-37c1adc68378")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 193.04 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5b15f92e-dd9e-413c-bc17-2a8326aeba49")
+	)
+	(wire
+		(pts
+			(xy 162.56 111.76) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5bdd1ff5-d58e-434e-a5c2-e313d1dfd670")
+	)
+	(wire
+		(pts
+			(xy 223.52 99.06) (xy 233.68 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5d1d9a60-87b9-429a-a991-7dd5c7bd62bf")
+	)
+	(wire
+		(pts
+			(xy 284.48 111.76) (xy 284.48 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "60d11340-f929-4167-979f-70ac9602e5b9")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 213.36 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "60f6b841-4a71-49f4-8aa5-e2f39a623b64")
+	)
+	(wire
+		(pts
+			(xy 233.68 101.6) (xy 233.68 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "610f4b38-6037-4dc0-aceb-1a327b3c9989")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "634f3e85-6afd-4b12-a99d-423ce6aa5dfd")
+	)
+	(wire
+		(pts
+			(xy 274.32 109.22) (xy 274.32 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "635eb856-60d0-488c-a4f4-ae53dfd741e1")
+	)
+	(wire
+		(pts
+			(xy 314.96 101.6) (xy 314.96 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "664f2acf-dd51-4190-bc5d-63728950cd7f")
+	)
+	(wire
+		(pts
+			(xy 294.64 101.6) (xy 294.64 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "679f2115-4ddf-4ba2-a198-b4027b40a8c8")
+	)
+	(wire
+		(pts
+			(xy 111.76 109.22) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6948ffe7-79d3-4b0a-96d6-723041858dd1")
+	)
+	(wire
+		(pts
+			(xy 121.92 99.06) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6a224cc9-3845-42f5-b6fe-941616060afa")
+	)
+	(wire
+		(pts
+			(xy 325.12 99.06) (xy 325.12 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e997dcd-eb89-40c2-8248-c94bee039e15")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "70d90efb-49ab-464a-9743-35b0b2cfcd1f")
+	)
+	(wire
+		(pts
+			(xy 162.56 109.22) (xy 162.56 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "71a82a7f-8e4d-4814-8057-7155b223ac13")
+	)
+	(wire
+		(pts
+			(xy 213.36 109.22) (xy 213.36 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "748d8158-9ee8-433a-b249-6e514308feba")
+	)
+	(wire
+		(pts
+			(xy 304.8 99.06) (xy 314.96 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "74c1d403-a95c-4909-97fb-3c07aeb25160")
+	)
+	(wire
+		(pts
+			(xy 254 111.76) (xy 264.16 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7626e8aa-ce74-4d73-aca0-152451fe0af2")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76ffa59e-eb12-4e3b-8cfd-a64bd64c550c")
+	)
+	(wire
+		(pts
+			(xy 284.48 99.06) (xy 284.48 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "77e9af05-7305-4a0e-bb8b-d526e329e8f9")
+	)
+	(wire
+		(pts
+			(xy 325.12 111.76) (xy 325.12 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "77ed70ee-681e-4098-90c9-e3e0c5f8264a")
+	)
+	(wire
+		(pts
+			(xy 17.78 99.06) (xy 17.78 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7a3effb0-f72f-459e-a9db-9793d5d628ca")
+	)
+	(wire
+		(pts
+			(xy 243.84 109.22) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7ad1f87a-a5ba-48d4-8a45-dbda2f4109ab")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81e1a430-20b3-40a3-807c-9e54f23cc630")
+	)
+	(wire
+		(pts
+			(xy 243.84 111.76) (xy 254 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8280ec22-cee6-42ee-b35b-bf9896a1faf6")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "83f46480-151e-4c44-8189-dadcd40a2981")
+	)
+	(wire
+		(pts
+			(xy 335.28 101.6) (xy 335.28 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "87202184-4ba0-471d-9be5-9e1c1b44a354")
+	)
+	(wire
+		(pts
+			(xy 101.6 111.76) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "880c3fb9-3f3e-4ca7-8d86-dceda5ce215d")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8b358847-c293-479e-8922-6af56cc3d3d0")
+	)
+	(wire
+		(pts
+			(xy 213.36 99.06) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8d2b6bb7-0c20-4596-b3ca-62c8d16d2225")
+	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9012409c-2c64-4eed-a54f-e49a1aec6b72")
+	)
+	(wire
+		(pts
+			(xy 203.2 101.6) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9034d754-2442-42a3-bdca-6bda5ce47ead")
+	)
+	(wire
+		(pts
+			(xy 193.04 109.22) (xy 193.04 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "926da41f-24ce-45bd-93b1-34b1161dce55")
+	)
+	(wire
+		(pts
+			(xy 314.96 109.22) (xy 314.96 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "931ac027-6ee6-47a2-8ebf-402286975c0a")
+	)
+	(wire
+		(pts
+			(xy 274.32 111.76) (xy 284.48 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "99fdd6de-92fe-47d6-8d82-0ff03fe24fd8")
+	)
+	(wire
+		(pts
+			(xy 233.68 99.06) (xy 243.84 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9cc1b3a4-9dcf-4a8a-83f8-30be7d5115b8")
+	)
+	(wire
+		(pts
+			(xy 203.2 109.22) (xy 203.2 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ed90128-5b2e-409b-89fe-921e787b97a1")
+	)
+	(wire
+		(pts
+			(xy 233.68 109.22) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa6bc895-1dc5-43af-9fb1-f5bd50494cf5")
+	)
+	(wire
+		(pts
+			(xy 66.04 99.06) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ad588a41-322a-4ad7-bb53-a224f87462ef")
+	)
+	(wire
+		(pts
+			(xy 25.4 106.68) (xy 25.4 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae14deb7-dbc2-4ced-af8b-88bbdc3e2805")
+	)
+	(wire
+		(pts
+			(xy 53.34 99.06) (xy 66.04 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b3352271-01a8-41d0-b6c5-cff37e79fbf9")
+	)
+	(wire
+		(pts
+			(xy 233.68 111.76) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b47ab8c1-8440-4d25-ba50-2097ead02374")
+	)
+	(wire
+		(pts
+			(xy 182.88 111.76) (xy 193.04 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b499460a-6b3b-4a4d-99ab-4b19ac63ae42")
+	)
+	(wire
+		(pts
+			(xy 91.44 109.22) (xy 91.44 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b79cb277-1138-4d80-b513-15d77973fff7")
+	)
+	(wire
+		(pts
+			(xy 254 99.06) (xy 264.16 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b95112dd-759e-4998-a883-cb5dc8a0dcbb")
+	)
+	(wire
+		(pts
+			(xy 66.04 106.68) (xy 66.04 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9656e0c-6ffa-4cb6-9834-447a957bfb76")
+	)
+	(wire
+		(pts
+			(xy 243.84 99.06) (xy 254 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b99cbc6f-1ac8-4abf-96b9-8aa2012f9365")
+	)
+	(wire
+		(pts
+			(xy 182.88 99.06) (xy 193.04 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bcb8161c-5120-4425-ba4a-66bafd5724b7")
+	)
+	(wire
+		(pts
+			(xy 213.36 111.76) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bde41e03-eb5b-498a-af99-0c7f4e61924d")
+	)
+	(wire
+		(pts
+			(xy 101.6 109.22) (xy 101.6 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4a0c7dd-309e-46ae-988d-04d2cbf1f37f")
+	)
+	(wire
+		(pts
+			(xy 86.36 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4be72a0-c645-42e4-b8cc-7ee4c13c0372")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c5e72e8f-5236-4335-9082-66918677d20c")
+	)
+	(wire
+		(pts
+			(xy 264.16 109.22) (xy 264.16 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c736ff43-3ca8-46bf-8466-b45c3c5e1df8")
+	)
+	(wire
+		(pts
+			(xy 314.96 99.06) (xy 325.12 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c7db3bb5-1d6d-4ce2-b2f3-8bdfd5bee890")
+	)
+	(wire
+		(pts
+			(xy 264.16 99.06) (xy 274.32 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ca5f4792-6e50-4a7a-9496-31a9d81a26da")
+	)
+	(wire
+		(pts
+			(xy 182.88 111.76) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cab030e0-a2a2-48b4-b10f-651e6e803f6f")
+	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cbb94d20-c059-4deb-8779-7ee90ad220df")
+	)
+	(wire
+		(pts
+			(xy 121.92 99.06) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf4b19e6-8406-4d0a-b908-908a59eebf35")
+	)
+	(wire
+		(pts
+			(xy 182.88 99.06) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cfd6c0cf-a872-4b0f-9eb5-1464a2741011")
+	)
+	(wire
+		(pts
+			(xy 172.72 109.22) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0241c7b-a92b-45c6-a6c1-d735476180a8")
+	)
+	(wire
+		(pts
+			(xy 335.28 99.06) (xy 325.12 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d49de20e-e61e-4576-a3e8-a643ff2b6188")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 172.72 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5bee2fd-893e-489f-b82f-e5a3c237856d")
+	)
+	(wire
+		(pts
+			(xy 223.52 109.22) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dc66a935-0943-435f-bdf2-96845ed8699c")
+	)
+	(wire
+		(pts
+			(xy 294.64 109.22) (xy 294.64 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dcbfd2b2-5172-4da5-9478-ab01b1cd4a73")
+	)
+	(wire
+		(pts
+			(xy 254 101.6) (xy 254 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dd82ed59-ba4d-4876-a121-5eefac2148c4")
+	)
+	(wire
+		(pts
+			(xy 152.4 111.76) (xy 162.56 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e1ff36aa-6203-46af-b3b3-8b5f312abe62")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e22627b9-d162-41e9-b020-515a37896b74")
+	)
+	(wire
+		(pts
+			(xy 294.64 111.76) (xy 284.48 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e3bf9d38-2182-490c-be38-7263f1373dbe")
+	)
+	(wire
+		(pts
+			(xy 304.8 111.76) (xy 314.96 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e5fe03a0-8c58-42d9-aa44-1fc178705db8")
+	)
+	(wire
+		(pts
+			(xy 304.8 111.76) (xy 304.8 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e62bdfdf-24e1-4ba7-89a1-ad7677bde37f")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eaa811f9-c61a-45b3-93eb-a964ffcf4057")
+	)
+	(wire
+		(pts
+			(xy 274.32 101.6) (xy 274.32 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ecca7662-7915-4bb5-b6d5-9583d982f779")
+	)
+	(wire
+		(pts
+			(xy 304.8 99.06) (xy 294.64 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f11c144e-96c0-467b-8782-703f4849ed5e")
+	)
+	(wire
+		(pts
+			(xy 33.02 99.06) (xy 25.4 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f3009c4e-38db-4eca-901f-75d17c6e5ed7")
+	)
+	(wire
+		(pts
+			(xy 274.32 99.06) (xy 284.48 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f4e0413b-8aa2-4daa-8bde-b56bfe2e24e1")
+	)
+	(wire
+		(pts
+			(xy 335.28 109.22) (xy 335.28 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f8d9f906-1144-4c9b-89be-3b56a217070f")
+	)
+	(wire
+		(pts
+			(xy 223.52 101.6) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "faf20148-44d2-4328-a3f2-2f47f112aa74")
+	)
+	(text "3.3V Generation"
+		(exclude_from_sim no)
+		(at 48.26 93.98 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "574eeaf3-a670-413e-941d-10a6a8ff7da0")
+	)
+	(global_label "VCC"
+		(shape bidirectional)
+		(at 91.44 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "10bd7f34-40d5-46dd-84e8-3d1e80226af7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.0102 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape bidirectional)
+		(at 17.78 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "db00e1c9-4e78-429d-9ef3-a9b8c70fca20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.0463 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 91.44 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02b87322-ebca-48bb-9823-8a31b510d349")
+		(property "Reference" "C1"
+			(at 92.964 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 92.964 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35a99f49-1a1b-483c-8771-804c77b3b928")
+		)
+		(pin "2"
+			(uuid "a3277752-2842-4f42-a8cd-f6696c8aae9a")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC1206")
+		(at 66.04 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0848c403-2134-4723-9df4-2f965b676080")
+		(property "Reference" "C14"
+			(at 67.564 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22µF"
+			(at 67.564 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C1206"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fa3ddc6-f051-4e16-918a-b10a4c113f4f")
+		)
+		(pin "2"
+			(uuid "b6cbb37b-a211-45f0-bca9-1a647d705c8a")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 132.08 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ec983d8-c029-4fa9-a253-89765391c988")
+		(property "Reference" "C5"
+			(at 133.604 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 133.604 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1c3a24b-0d0a-4551-86d1-e7e8e653c4ca")
+		)
+		(pin "1"
+			(uuid "c166c268-0a6f-4e30-90ba-d5fd5066dc66")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:LT1117")
+		(at 43.18 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14a7546a-c17b-4d40-8fa9-253270d50e0e")
+		(property "Reference" "U$9"
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AZ1117IH-3.3TRG1"
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:SOT223"
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ade9e05e-93a2-4983-9ffd-ab001f035c97")
+		)
+		(pin "3"
+			(uuid "69abb6f6-d752-40c8-86df-6f97636d7c2e")
+		)
+		(pin "2"
+			(uuid "9eb49016-fc94-4bdb-9b1d-76b08005832d")
+		)
+		(pin "1"
+			(uuid "d4ab31a6-337e-48f3-a868-58c89cc6b8d4")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "U$9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 172.72 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ce0caab-4061-44a2-ab2f-90f94cc42432")
+		(property "Reference" "C9"
+			(at 174.244 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 174.244 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc6ced8c-305d-4d1a-a016-953fcfa3e1d4")
+		)
+		(pin "2"
+			(uuid "0554ba7a-bbec-4d3e-a3ab-b207cf328a19")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:GND")
+		(at 142.24 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cf22969-f5ad-42c5-865c-a973b41848d7")
+		(property "Reference" "#SUPPLY15"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.335 120.015 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66d9981e-def3-4fa1-9b24-56284af6eae1")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "#SUPPLY15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 304.8 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "304b2c24-2323-493b-92d3-5ead6c1aa91c")
+		(property "Reference" "C26"
+			(at 306.324 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 306.324 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 304.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a34d91fd-48be-4ac2-abbf-4dcb07b0559a")
+		)
+		(pin "2"
+			(uuid "a1763bd6-3ad3-4cfd-b38e-86f2cb4b3b8f")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 182.88 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30c401da-0f27-46ee-bd19-0c173ff61047")
+		(property "Reference" "C10"
+			(at 184.404 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 184.404 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f95c7d2-dfcc-4925-b113-551d97b4eb2f")
+		)
+		(pin "1"
+			(uuid "7035c9a8-63d7-4871-ab01-6b93466c97e7")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 243.84 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e8650d2-db76-4f67-9d12-c491a21b539a")
+		(property "Reference" "C20"
+			(at 245.364 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 245.364 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 243.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23d69484-1d83-4639-ae5f-af1e5618a017")
+		)
+		(pin "2"
+			(uuid "30de1cf7-cf26-4369-9f4d-32c2d8f6fb6f")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:VCC-CIRCLE")
+		(at 86.36 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4461c1df-d06c-466b-ade8-7cc53975a333")
+		(property "Reference" "#SUPPLY12"
+			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 86.36 92.075 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79dcbe85-1353-4594-a964-fa2af347c8ad")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "#SUPPLY12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:GND")
+		(at 25.4 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48745ea1-d30d-40b7-9fdb-e0e3297e0397")
+		(property "Reference" "#SUPPLY22"
+			(at 25.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 23.495 114.935 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36cc2e5b-b021-46c8-bfde-49c763c80bf2")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "#SUPPLY22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 233.68 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "511f3879-2c5f-4560-8e4c-4f5f9d3d22de")
+		(property "Reference" "C19"
+			(at 235.204 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 235.204 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 233.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6efcb89e-3f6a-4bc0-9af2-f48f8f81c18f")
+		)
+		(pin "1"
+			(uuid "54180dec-4c00-477b-8bf8-ddf5234db51a")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC1206")
+		(at 25.4 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "530d7691-c723-4bd3-b5f6-61ea4210aa26")
+		(property "Reference" "C13"
+			(at 26.924 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10µF"
+			(at 26.924 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C1206"
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75bc8bf8-ac5d-4ec5-8486-22ae6b810163")
+		)
+		(pin "2"
+			(uuid "ab078e7d-099d-4dac-acff-e4ccb22e73ec")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 152.4 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60da7204-b1d6-421d-8c2f-41548af319fa")
+		(property "Reference" "C7"
+			(at 153.924 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 153.924 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b91ce6c9-72a6-4f6e-8639-e5d75d10c5f1")
+		)
+		(pin "1"
+			(uuid "6354cea9-9b5d-4bf6-b465-502fc6a0dd2c")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 314.96 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6798c9a0-8644-4d40-8986-e230ee62c4b7")
+		(property "Reference" "C27"
+			(at 316.484 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 316.484 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 314.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e34557f-aad8-4853-9bfe-77b5cb68eff9")
+		)
+		(pin "2"
+			(uuid "afe8cd00-469e-40d1-8dfd-e75f5cb53880")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 284.48 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ddf3fce-e198-4e52-95d5-cedf95163d4b")
+		(property "Reference" "C24"
+			(at 286.004 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 286.004 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 284.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55e1466d-fc5b-4ad3-8681-ea705e3bc457")
+		)
+		(pin "2"
+			(uuid "bc3c3db6-01d9-42cb-9cdb-895b7a8eeb1c")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 111.76 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e1d4c8e-4248-4063-9e0a-b4c1d2b2dddd")
+		(property "Reference" "C3"
+			(at 113.284 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 113.284 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29d29ca3-343d-4281-ab02-a9c55f0b903c")
+		)
+		(pin "2"
+			(uuid "c10003de-e15a-4664-849f-dc9d469cdaab")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 101.6 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80aeb18d-c851-47ab-8bfd-6f8476b9c2fa")
+		(property "Reference" "C2"
+			(at 103.124 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 103.124 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ad3ce24-4f83-488f-918a-50d2e19abcf9")
+		)
+		(pin "1"
+			(uuid "68088f54-e6cb-4e42-a90c-b33339acaef4")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 274.32 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "837ac6b8-b966-4350-8fae-651af8e22707")
+		(property "Reference" "C23"
+			(at 275.844 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 275.844 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 274.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f5f58f9-6133-4cd9-a62c-7bab66ca3adb")
+		)
+		(pin "2"
+			(uuid "5a56fa68-e254-4997-a6b5-60c390c5b7db")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 203.2 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9157e11f-a83a-4710-8124-2e8a3bf6673f")
+		(property "Reference" "C16"
+			(at 204.724 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 204.724 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab9242e8-31a7-43d1-8624-51565bc98f85")
+		)
+		(pin "1"
+			(uuid "bba498d7-1910-4c83-82c0-1ffc1d294c9f")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 335.28 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93414d60-f48f-4416-ba62-f62a4c99adad")
+		(property "Reference" "C29"
+			(at 336.804 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 336.804 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 335.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "172d6143-04ef-4842-a27c-a7c489e23579")
+		)
+		(pin "2"
+			(uuid "59950e04-82ff-408c-9517-aedadcf72e10")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 294.64 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a109c1ab-9e1c-4d56-8ad7-a2a7c50231e0")
+		(property "Reference" "C25"
+			(at 296.164 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 296.164 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 294.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5d5ba7c-0c13-4538-acef-0d69b3fce875")
+		)
+		(pin "2"
+			(uuid "2a3b8866-1bbe-48e1-abc5-0b40282abd59")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 223.52 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad3d34d6-682a-48a9-988b-3c11ac0b4a3e")
+		(property "Reference" "C18"
+			(at 225.044 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 225.044 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "108dee21-c6a8-4342-9559-e44db8bef24d")
+		)
+		(pin "2"
+			(uuid "630c3c27-7936-46cf-a6c4-d6defbe678cd")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:GND")
+		(at 66.04 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af6a781d-67d3-48c6-91da-be5f9cf7d6cb")
+		(property "Reference" "#SUPPLY23"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.135 114.935 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f15aed3d-82c5-412f-89a5-8cb16af68332")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "#SUPPLY23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:GND")
+		(at 43.18 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9c2178f-2d06-470b-a1ae-d1083bbc4bb5")
+		(property "Reference" "#SUPPLY21"
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.275 117.475 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de509c72-a8d2-4d7f-978e-39a7b6f33afc")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "#SUPPLY21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 213.36 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baff9969-8223-40a2-8674-e63ee4b4a0a8")
+		(property "Reference" "C17"
+			(at 214.884 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 214.884 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b98dd7d7-7d95-43b0-9ecd-06bb76f5d859")
+		)
+		(pin "1"
+			(uuid "6dea58a6-e1ff-4260-abdf-71414e4281b6")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 254 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c06ebe70-a183-4fd9-9685-a24a8a68efa7")
+		(property "Reference" "C21"
+			(at 255.524 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 255.524 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 254 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eba4ed13-d307-4b13-85d0-af4ea69dc946")
+		)
+		(pin "2"
+			(uuid "d6e09a4e-c44b-499e-88e3-06a489235e44")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 264.16 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6b62c06-84a9-4e86-95a9-891d599fb018")
+		(property "Reference" "C22"
+			(at 265.684 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 265.684 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "484bd4f1-1814-40d2-b459-97ad5e3bbeaf")
+		)
+		(pin "2"
+			(uuid "962d94df-7a03-4080-96e4-2fdacb19d7cc")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 193.04 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfb386b7-17ea-4c44-8860-b5d117abccf2")
+		(property "Reference" "C15"
+			(at 194.564 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 194.564 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75363b60-7a75-498c-84c3-4ee802f5c4dc")
+		)
+		(pin "2"
+			(uuid "1a5ea2d4-16e9-4948-9618-bb5058799bd6")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 162.56 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec57e860-71ff-4218-b297-98384498e2d9")
+		(property "Reference" "C8"
+			(at 164.084 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 164.084 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a41f2620-3cb6-482c-8c2c-2a7363fcff89")
+		)
+		(pin "2"
+			(uuid "23f2e257-5cd6-4523-a786-042d60368521")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 142.24 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef4e0ba4-8e4c-4b57-817f-12c65a411a24")
+		(property "Reference" "C6"
+			(at 143.764 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 143.764 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a70ebeaa-f86b-4641-9c11-6c98e061e923")
+		)
+		(pin "1"
+			(uuid "586d660a-b021-4c9b-adad-75d2c30f1735")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 121.92 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f08e9d8b-49fb-4584-91ad-e5dc8a3babbb")
+		(property "Reference" "C4"
+			(at 123.444 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 123.444 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8e45a6f-be66-4887-84c6-b885fbb96e1a")
+		)
+		(pin "2"
+			(uuid "13260551-7f02-43f0-9e73-6b15d1a3693c")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timing_Control_V1p1-eagle-import:C-EUC0603")
+		(at 325.12 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fda00938-7a32-401f-a9f1-06d5f57f3641")
+		(property "Reference" "C28"
+			(at 326.644 103.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 326.644 108.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Timing_Control_V1p1:C0603"
+			(at 325.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26d906f3-c33f-4a4a-94bb-1d962e360e7e")
+		)
+		(pin "2"
+			(uuid "ba91a7bd-27b7-438e-a0b0-8c7879ac4a39")
+		)
+		(instances
+			(project ""
+				(path "/290c6efc-4c14-458b-b6f8-5cb293196baa/a978593b-cbd6-4ae6-9294-13afe854cafe"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
