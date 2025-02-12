@@ -1,0 +1,3116 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f18030a0-492c-4c11-a389-3280a7e1cf7a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Modulator_V1p2-eagle-import:C-EUC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Modulator_V1p2:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0603_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Modulator_V1p2-eagle-import:C-EUC1206"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Modulator_V1p2:C1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC1206_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Modulator_V1p2-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.905 -3.175 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Modulator_V1p2-eagle-import:LT1117"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 10.16 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Modulator_V1p2:SOT223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LT1117_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "GND"
+					(at -2.54 -5.08 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify right top)
+					)
+				)
+				(text "In"
+					(at -10.16 5.08 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Out"
+					(at 7.62 5.08 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 208.28 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d441ef6-b9c0-4b88-93b3-454fea4abe3f")
+	)
+	(junction
+		(at 116.84 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0efbe2c9-a2bb-42d3-8f6e-ef4b9bba8369")
+	)
+	(junction
+		(at 127 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1199a8f3-5f32-4c4c-9954-5cc0b1b7472e")
+	)
+	(junction
+		(at 116.84 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17b1f324-65ad-4e16-93d4-c8bc9b816f29")
+	)
+	(junction
+		(at 236.22 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22bac5cc-f316-4ae5-87b6-55320c53d16c")
+	)
+	(junction
+		(at 198.12 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2768d884-9598-4093-a492-6c21b1814619")
+	)
+	(junction
+		(at 208.28 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a38f088-14ec-4ca0-8d24-20f7724ac6d7")
+	)
+	(junction
+		(at 137.16 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ef0e5fc-f235-4b35-b266-ac15a0af7b8f")
+	)
+	(junction
+		(at 96.52 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4817c6ee-e814-46c2-b23b-753892307779")
+	)
+	(junction
+		(at 157.48 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48be53c9-5ad5-4004-ab16-35555c6bf2b9")
+	)
+	(junction
+		(at 243.84 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5422dbb2-ca55-4a4d-8f92-75272df18419")
+	)
+	(junction
+		(at 73.66 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55dd0b72-264b-41b4-a680-28013c3a5e23")
+	)
+	(junction
+		(at 218.44 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61a4dde3-b9ae-4b36-9bee-24e214d85259")
+	)
+	(junction
+		(at 167.64 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6333bcd8-3bc1-4ea9-abae-5131102de653")
+	)
+	(junction
+		(at 167.64 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "667a1280-2fc8-4221-b8c4-7b6acc23f10b")
+	)
+	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71cbba86-4f29-4c85-a993-b66e5636232f")
+	)
+	(junction
+		(at 127 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "742a8d9e-8e0d-44a2-a835-85d951b01055")
+	)
+	(junction
+		(at 228.6 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75150643-7f47-4251-b8f6-7d7f78591320")
+	)
+	(junction
+		(at 106.68 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "758625a9-2ee3-48f0-83ee-245c3b49e650")
+	)
+	(junction
+		(at 236.22 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7778bc2e-c5e7-470b-8d97-bc9b4aa98d3d")
+	)
+	(junction
+		(at 218.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7acc3711-b7fc-4c75-be89-797f2fa42148")
+	)
+	(junction
+		(at 33.02 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e355763-942b-44bb-9c92-cedf9f2a349a")
+	)
+	(junction
+		(at 243.84 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87963ff7-08b7-4d95-8bd6-89d1761655cd")
+	)
+	(junction
+		(at 177.8 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab3b36c0-ea2c-4645-ba5c-11c65989e8a5")
+	)
+	(junction
+		(at 187.96 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4c9cb7d-770a-41cd-bfc4-4ec0d2b50d53")
+	)
+	(junction
+		(at 147.32 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7d5bf53-8ca0-45e4-92e2-7e4b0729ecf2")
+	)
+	(junction
+		(at 187.96 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc12c125-0f23-4fd2-bfa4-9b3a6ce05af5")
+	)
+	(junction
+		(at 106.68 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd0cd46c-337a-4f47-8b23-c5a782b34d01")
+	)
+	(junction
+		(at 147.32 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd10a9c6-5cc7-4b7d-817b-e85b671f98e9")
+	)
+	(junction
+		(at 251.46 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1e07683-b924-4dee-87ad-90fc84c462ad")
+	)
+	(junction
+		(at 228.6 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6de3d99-5e19-4e27-85ff-17f1b9e70558")
+	)
+	(junction
+		(at 198.12 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75012a0-300c-4f7f-ad2a-ec5d24988c03")
+	)
+	(junction
+		(at 157.48 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e90bc737-72bd-401d-8a5c-cb527b86afa6")
+	)
+	(junction
+		(at 177.8 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbae5829-e6f9-4039-8803-b3454963e32d")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "05c207e9-3a1f-49e0-a1a1-037be7a07f9f")
+	)
+	(wire
+		(pts
+			(xy 218.44 111.76) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "09f38fdd-d815-4ac9-beb1-585cc87483ab")
+	)
+	(wire
+		(pts
+			(xy 40.64 99.06) (xy 33.02 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a429f9c-1991-4706-96df-7b0e50a98fc3")
+	)
+	(wire
+		(pts
+			(xy 167.64 111.76) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b20a8f7-e86f-4952-8061-092b4f3cb608")
+	)
+	(wire
+		(pts
+			(xy 218.44 99.06) (xy 228.6 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c1cfe5f-e47a-4d13-b642-d66d2553601d")
+	)
+	(wire
+		(pts
+			(xy 251.46 111.76) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0f8baf3a-a2e2-45ce-aa9b-52f2f94b4281")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "14317364-d239-4067-b7be-334cd67b16d2")
+	)
+	(wire
+		(pts
+			(xy 50.8 109.22) (xy 50.8 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "25282628-6a88-4970-bc25-b8ba3b44ca65")
+	)
+	(wire
+		(pts
+			(xy 116.84 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "28c8dcaf-836a-48fc-9237-7a12ad2ad9b3")
+	)
+	(wire
+		(pts
+			(xy 198.12 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "29cc75e3-7065-41bd-b536-92f2e1a17aac")
+	)
+	(wire
+		(pts
+			(xy 208.28 111.76) (xy 198.12 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2a8fa5c3-1d0e-4344-ad20-a7d5982997d8")
+	)
+	(wire
+		(pts
+			(xy 167.64 99.06) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2aa8fb42-69bb-4eb0-8f0e-687a959c05e9")
+	)
+	(wire
+		(pts
+			(xy 25.4 99.06) (xy 25.4 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2fbba713-ffd1-401b-912d-df9e33fa8a6d")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2fdf9541-40ce-49f8-b13b-304c1896edf8")
+	)
+	(wire
+		(pts
+			(xy 251.46 106.68) (xy 251.46 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "445bc42d-cfd8-4a1b-bfb5-b3fc41feac9e")
+	)
+	(wire
+		(pts
+			(xy 187.96 99.06) (xy 198.12 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "48508122-e00d-4736-9f9a-177fca1c1855")
+	)
+	(wire
+		(pts
+			(xy 228.6 111.76) (xy 218.44 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "493437e8-2c2b-4d24-b265-8fef2ad9be21")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4db5c22c-29b2-4ae1-a7b6-b463333fa8fe")
+	)
+	(wire
+		(pts
+			(xy 106.68 111.76) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "570523b0-2b31-4a7a-b3ea-0225589444ca")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 137.16 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58665821-f182-4e11-a80c-d2119b473c0e")
+	)
+	(wire
+		(pts
+			(xy 33.02 99.06) (xy 25.4 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58d8cd90-c61c-4945-ae6f-b37469e0a633")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5c12530c-d996-4575-bd7d-db0ca02b19de")
+	)
+	(wire
+		(pts
+			(xy 73.66 106.68) (xy 73.66 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5fc72218-562b-48be-92f5-a3141e54dc0c")
+	)
+	(wire
+		(pts
+			(xy 218.44 106.68) (xy 218.44 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "66a1f38c-d4f3-4ccc-b9af-06f98b40bb7c")
+	)
+	(wire
+		(pts
+			(xy 198.12 111.76) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e206c5a-6daf-4efb-942d-66eadce14f98")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 187.96 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7519afbc-f2c4-4700-8424-c9750db18ab6")
+	)
+	(wire
+		(pts
+			(xy 60.96 99.06) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7858b84b-c932-4bba-a5fe-aa2d571904ff")
+	)
+	(wire
+		(pts
+			(xy 33.02 106.68) (xy 33.02 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "79b2a8e7-5d35-41e3-8cc8-63aa1f637247")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7c331654-1d35-4496-baba-54ae52e102d9")
+	)
+	(wire
+		(pts
+			(xy 243.84 106.68) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81f7d8a8-914b-4af8-816e-35e6dc7bb9cf")
+	)
+	(wire
+		(pts
+			(xy 236.22 111.76) (xy 236.22 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "83ec3681-bd0c-4911-a156-2819c219ced8")
+	)
+	(wire
+		(pts
+			(xy 177.8 106.68) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "85bc5a47-7113-43c5-9b34-47cd12b2f9ce")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "875ec9ef-2c0a-4be9-9266-ccce6d3cbe8d")
+	)
+	(wire
+		(pts
+			(xy 96.52 111.76) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8b21c9fb-dcad-4a1d-987c-0e24cfc46c86")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 127 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8bf91b41-3c8d-43e3-97f7-123cfaadef2c")
+	)
+	(wire
+		(pts
+			(xy 208.28 106.68) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9174b8f3-d495-4641-b341-00473cb5e661")
+	)
+	(wire
+		(pts
+			(xy 243.84 111.76) (xy 236.22 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9393438d-26b6-472e-b1f5-8bf5c49d4bfe")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9658448f-60a8-4754-85b6-1c1a57243786")
+	)
+	(wire
+		(pts
+			(xy 251.46 99.06) (xy 264.16 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9bf452b7-1293-4186-931a-55c027419825")
+	)
+	(wire
+		(pts
+			(xy 157.48 111.76) (xy 167.64 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a723cc31-3c26-4a6c-b4a7-ab68808877c2")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b2713f00-62a0-4294-847f-cad944468023")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 167.64 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b4aaa074-dca0-4bfc-a0d9-e871ad587ab8")
+	)
+	(wire
+		(pts
+			(xy 208.28 99.06) (xy 218.44 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c103f34f-eb7d-41dd-926c-a5267ddab721")
+	)
+	(wire
+		(pts
+			(xy 198.12 106.68) (xy 198.12 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c45044c8-3c68-48e2-9681-0c4cb67f1ff6")
+	)
+	(wire
+		(pts
+			(xy 187.96 106.68) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4be7290-7af9-42f7-b5cf-cad36baad007")
+	)
+	(wire
+		(pts
+			(xy 137.16 99.06) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc0f927e-9ece-43d5-a964-5831ff89d426")
+	)
+	(wire
+		(pts
+			(xy 96.52 106.68) (xy 96.52 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1dd6479-db7c-4a70-9a5c-aeab52d21301")
+	)
+	(wire
+		(pts
+			(xy 243.84 99.06) (xy 251.46 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d725b3c9-1095-43d2-b278-9c074c34404b")
+	)
+	(wire
+		(pts
+			(xy 73.66 99.06) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dc86a891-b8be-442d-9205-5919f8810bd5")
+	)
+	(wire
+		(pts
+			(xy 236.22 99.06) (xy 243.84 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "df4d037c-c5c6-4a2a-8ae4-0ca540a60895")
+	)
+	(wire
+		(pts
+			(xy 228.6 111.76) (xy 236.22 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "df66aa7a-98c9-4398-a5e1-f9ca2731c741")
+	)
+	(wire
+		(pts
+			(xy 147.32 111.76) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e2d48889-b59a-4b5b-abd1-786ba881f502")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e40028a7-a039-4bbe-8e0b-06f58671637d")
+	)
+	(wire
+		(pts
+			(xy 187.96 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eb3d4ab2-cb83-4e13-bb39-e45f5ee59b5a")
+	)
+	(wire
+		(pts
+			(xy 106.68 99.06) (xy 116.84 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ec80cada-d746-47c6-ac27-b52a45eabd5c")
+	)
+	(wire
+		(pts
+			(xy 228.6 99.06) (xy 236.22 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f7bc39e5-e91f-4f60-8490-25b72266613b")
+	)
+	(wire
+		(pts
+			(xy 228.6 106.68) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f9a66471-08d3-4360-8215-1f480d2177a2")
+	)
+	(wire
+		(pts
+			(xy 157.48 99.06) (xy 167.64 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe93d7d0-bea5-4ed0-a729-9be8e818706d")
+	)
+	(text "Distribute capacitors to supply pins of digital circuits."
+		(exclude_from_sim no)
+		(at 109.22 93.98 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cb10ba2-12c7-4bd3-a635-470d16a9bf56")
+	)
+	(text "3.3V Generation"
+		(exclude_from_sim no)
+		(at 55.88 93.98 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4d96018-3fdb-4ac0-912d-f0f095d7639f")
+	)
+	(global_label "VCC"
+		(shape bidirectional)
+		(at 264.16 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "02f5c425-1dc7-4d0d-b016-840bb8f58bc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.7302 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape bidirectional)
+		(at 25.4 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "448e8d2e-68fb-40da-857c-9a2c6eca4f3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.6663 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 218.44 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17959720-1ece-4b5f-8bc1-623f921f1be0")
+		(property "Reference" "C36"
+			(at 219.964 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 219.964 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e15242b4-95e0-4ef2-ae63-e26170a904e5")
+		)
+		(pin "2"
+			(uuid "ee8adcdd-8829-45d6-bb65-b27edce689fc")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:GND")
+		(at 137.16 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22e1b799-abbd-468c-a445-55d7cd8d92df")
+		(property "Reference" "#SUPPLY32"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.255 117.475 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28eb0fda-3ac9-44a5-be38-630ac8f3c306")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "#SUPPLY32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 106.68 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2575cce1-c533-4252-bd6b-4812289066a5")
+		(property "Reference" "C23"
+			(at 108.204 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 108.204 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a894aabb-4140-4e21-8bbe-28941be6b47e")
+		)
+		(pin "2"
+			(uuid "40db3a8d-fc6e-4ab6-bfbc-3da61296959f")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 127 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26a43de9-6288-461d-af6c-0c730f92da10")
+		(property "Reference" "C25"
+			(at 128.524 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 128.524 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "282411ac-5f63-499f-8d05-163690b0ccab")
+		)
+		(pin "2"
+			(uuid "b17ea56a-1b8c-4448-863f-accd9b5c2541")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 167.64 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d70da3c-6ddb-4d39-9daa-43059b0b6125")
+		(property "Reference" "C29"
+			(at 169.164 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 169.164 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4368e73d-4625-44dd-8804-53353ab37e5b")
+		)
+		(pin "2"
+			(uuid "8b7f8a81-ea9c-413a-b52c-e95f461dd8f7")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 198.12 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e71b5d5-2272-4878-a1e9-9455e485cc88")
+		(property "Reference" "C34"
+			(at 199.644 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 199.644 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8167625c-48fd-47c9-84e4-86a19762b008")
+		)
+		(pin "2"
+			(uuid "b3336bbc-17e7-47a7-9898-7eac4ee10f0a")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 96.52 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39f4df21-96fa-48d3-a37b-45c3ef820430")
+		(property "Reference" "C22"
+			(at 98.044 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 98.044 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d56bcc0d-07b1-454c-bc1e-84d00d9a8114")
+		)
+		(pin "2"
+			(uuid "e5294f18-6325-4fee-a09f-14dc3eb76948")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:GND")
+		(at 50.8 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e71ccfa-395e-4d11-80df-da91f20f188e")
+		(property "Reference" "#SUPPLY21"
+			(at 50.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.895 117.475 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20afb31f-153d-46d4-b930-361902cd7ff4")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "#SUPPLY21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:GND")
+		(at 33.02 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48400846-0f2b-43b6-952a-ae1d66ee6e60")
+		(property "Reference" "#SUPPLY22"
+			(at 33.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.115 114.935 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "212b6cc5-546a-4b15-9c35-66a148c129b4")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "#SUPPLY22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 137.16 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63ec7e68-3074-4279-8be9-af720511713d")
+		(property "Reference" "C26"
+			(at 138.684 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 138.684 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "328b4b3f-5b79-408b-8c09-a9187db21396")
+		)
+		(pin "1"
+			(uuid "2fd07a25-55aa-4c32-8e0f-af11ffb589bb")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 208.28 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79606dbf-7b17-4ae1-ae5f-591a617c0b45")
+		(property "Reference" "C35"
+			(at 209.804 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 209.804 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69b6b416-c867-47e1-a134-c1c07a445806")
+		)
+		(pin "1"
+			(uuid "f5a7e615-16bb-4a4d-9c63-8758bfdca3ea")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 177.8 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89682a1b-e371-4f9e-82db-7821f0992c15")
+		(property "Reference" "C30"
+			(at 179.324 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 179.324 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c97b71-4ed6-4f95-b2f4-e531dd5dbf16")
+		)
+		(pin "2"
+			(uuid "f53d29bf-a4df-40cc-af99-980cba5b3181")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 157.48 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a0ce9ba-5095-4f7b-ab01-0ba8ae56cd94")
+		(property "Reference" "C28"
+			(at 159.004 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 159.004 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 157.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76c71cce-245e-48b6-a6ca-50e7ecad02d0")
+		)
+		(pin "1"
+			(uuid "852f9308-b97b-4ca6-97d1-8292a9cf2ca9")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:LT1117")
+		(at 50.8 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3693fbc-0a05-4f3b-b7e7-8676c12bbdbd")
+		(property "Reference" "U$9"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AZ1117IH-3.3TRG1"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:SOT223"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3eb5d51f-a6dc-4c64-9c9d-383a9edfb93b")
+		)
+		(pin "1"
+			(uuid "4698cb00-9a5d-4777-b8bd-1647a8935b97")
+		)
+		(pin "3"
+			(uuid "476111d6-b178-4d5e-b985-9fb9b36d75b6")
+		)
+		(pin "2"
+			(uuid "54be3f12-745b-46dd-a046-2db75c290c16")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "U$9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 228.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3f1ca69-88ee-40b7-8554-b170c427c29f")
+		(property "Reference" "C37"
+			(at 230.124 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 230.124 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bbc89a3-cccb-4bab-8808-d16608f76c38")
+		)
+		(pin "1"
+			(uuid "0b7eb8cf-58af-4057-8a83-eaa6bd59c9f5")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 236.22 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6522d05-5ecd-402b-ac92-6e6cc95888c0")
+		(property "Reference" "C38"
+			(at 237.744 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 237.744 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95640625-8d74-48b9-84c5-604713ee5abf")
+		)
+		(pin "2"
+			(uuid "8bc0f0b4-83e2-4db9-92f5-e9996bad055f")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 187.96 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7d89e1d-8bb4-487c-b0f6-51d83781531c")
+		(property "Reference" "C31"
+			(at 189.484 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 189.484 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35b72ebd-b207-4841-85b1-f737fa87609b")
+		)
+		(pin "2"
+			(uuid "9c2c9cba-a10b-4460-a10c-92fd69086439")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 116.84 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a886ba4f-121a-4f24-86e8-611f60104899")
+		(property "Reference" "C24"
+			(at 118.364 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 118.364 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb204cf6-c087-475b-8be1-c7733d193983")
+		)
+		(pin "2"
+			(uuid "de64aca2-9efb-46dc-a297-98583c22d2ad")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 243.84 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dac1ad7a-9a72-4442-8a5e-6f6857e74ee2")
+		(property "Reference" "C39"
+			(at 245.364 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 245.364 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a273160-099a-4991-b2b2-7b7f48cca5ef")
+		)
+		(pin "1"
+			(uuid "b2c864e2-4d0f-4b2a-84e6-2837237647a9")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 147.32 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e26f498a-463b-4be7-a615-6bd7643d4981")
+		(property "Reference" "C27"
+			(at 148.844 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 148.844 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5732615a-f65e-4931-8590-bb71457f4dbb")
+		)
+		(pin "1"
+			(uuid "f9f6f61f-6e35-450f-8824-1edc9187612b")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC0603")
+		(at 251.46 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4b5cb4a-e921-4a0c-b905-107b345077b1")
+		(property "Reference" "C40"
+			(at 252.984 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10nF"
+			(at 252.984 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C0603"
+			(at 251.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c685b1a4-8707-4242-b84a-6426ea99f5c0")
+		)
+		(pin "2"
+			(uuid "e0fd2dbb-fb24-4885-abb7-d28ecd2d5717")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:GND")
+		(at 73.66 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9aa0c88-76c9-47ed-909a-78047fdd28ac")
+		(property "Reference" "#SUPPLY23"
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.755 114.935 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "525fb789-7617-4216-bc2e-cdb283b3bcc2")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "#SUPPLY23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC1206")
+		(at 33.02 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebb1569a-0d75-44d8-926d-ac848dc4827a")
+		(property "Reference" "C13"
+			(at 34.544 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10µF"
+			(at 34.544 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C1206"
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae87808a-a5ba-43a1-85dd-4d99a576caf5")
+		)
+		(pin "2"
+			(uuid "eef3eda3-c41f-4d67-bd17-2b8718977285")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Modulator_V1p2-eagle-import:C-EUC1206")
+		(at 73.66 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1dc5747-fa27-47d2-ab4e-ffbcef6b3530")
+		(property "Reference" "C14"
+			(at 75.184 101.219 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22µF"
+			(at 75.184 106.299 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Modulator_V1p2:C1206"
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d653260-8ee7-4e85-9ac4-e4159de278b0")
+		)
+		(pin "1"
+			(uuid "460eebe4-8ebf-4198-b847-37d09e5bb4f5")
+		)
+		(instances
+			(project ""
+				(path "/74c5594e-ff48-4e66-beae-9bf941e12d30/a99b5967-729f-4626-9c70-b8c70c40c7f1"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
